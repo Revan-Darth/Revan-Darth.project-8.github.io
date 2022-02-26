@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="shortcut icon" href="favicon.ico">
+		<title>Обмен криптовалюты</title>
+		<link rel="stylesheet" href="css/libs.min.css" type="text/css">
+		<link rel="stylesheet" href="css/style.min.css" type="text/css">
+	</head>
+	<body>
+		<header class="header-transf">
+			<div class="container">
+				<div class="header-top">
+					<a class="header-top__logo" href="index.html">
+						<img src="images/logo.png" alt="Логотип Codex">
+					</a>
+					<nav class="header-top__menu">
+						<ul class="header-top__list">
+							<li class="header-list__item"><a class="header-list-link" href="#">Как это работает?</a></li>
+							<li class="header-list__item"><a class="header-list-link" href="#">FAQ</a></li>
+							<li class="header-list__item"><a class="header-list-link button header-list-link-btn" href="join.html">Войти</a></li>
+						</ul>
+						<div class="header-top__switchers">
+							<form class="header__switchers-form" action="#">
+								<div class="header__switchers-wrapper">
+									<select class="header__switchers-sel" name="Languages">
+										<option value="RU" selected>RU</option>
+										<option value="ENG">ENG</option>
+									</select>
+								</div>
+								<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.49988 3.10547C5.07688 3.10547 3.10535 5.077 3.10535 7.5C3.10535 9.923 5.07688 11.8945 7.49988 11.8945C9.92288 11.8945 11.8944 9.923 11.8944 7.5C11.8944 5.077 9.92288 3.10547 7.49988 3.10547Z" fill="#333333"/>
+									<path d="M12.0614 10.1367C11.6044 10.9365 10.9276 11.6045 10.1278 12.0703L12.7733 12.7822L12.0614 10.1367Z" fill="#333333"/>
+									<path d="M7.49985 0L6.14636 2.4111C6.57703 2.28809 7.034 2.22656 7.49985 2.22656C7.9657 2.22656 8.4227 2.28809 8.85336 2.4111L7.49985 0Z" fill="#333333"/>
+									<path d="M2.22644 2.22656L2.93835 4.86328C3.39541 4.06345 4.05459 3.40427 4.85437 2.93848L2.22644 2.22656Z" fill="#333333"/>
+									<path d="M2.41101 6.1377L0.00866699 7.5L2.41101 8.8623C2.28796 8.43164 2.22641 7.97461 2.22641 7.5C2.22641 7.02536 2.28793 6.56836 2.41101 6.1377Z" fill="#333333"/>
+									<path d="M2.93835 10.1367L2.22644 12.7822L4.87195 12.0703C4.07214 11.6045 3.39542 10.9365 2.93835 10.1367Z" fill="#333333"/>
+									<path d="M7.49988 12.7734C7.0253 12.7734 6.56824 12.7119 6.12878 12.5888L7.49988 15L8.87098 12.5888C8.43153 12.7119 7.97447 12.7734 7.49988 12.7734Z" fill="#333333"/>
+									<path d="M10.1414 2.94292C10.9365 3.40567 11.5991 4.06881 12.0607 4.86469L12.7763 2.22784L10.1414 2.94292Z" fill="#333333"/>
+									<path d="M14.9913 7.50429L12.5904 6.1452C12.7059 6.57839 12.7733 7.03094 12.7733 7.50001C12.7733 7.97272 12.705 8.42881 12.5878 8.86505L14.9913 7.50429Z" fill="#333333"/>
+								</svg>
+								<input id="switcher-theme" class="header__switchers-col" type="checkbox">
+								<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_2_78)">
+										<path d="M8.56932 14.9995C11.439 15.0297 14.0602 13.3762 15.269 10.7735C14.5083 11.1054 13.6844 11.268 12.8546 11.2499C9.60193 11.2462 6.966 8.61031 6.96234 5.35764C6.9949 3.15745 8.2089 1.14493 10.1398 0.0896928C9.61907 0.023389 9.09426 -0.00629727 8.56932 0.00102622C4.4275 0.00102622 1.07007 3.35859 1.07007 7.50028C1.07007 11.6421 4.4275 14.9995 8.56932 14.9995Z" fill="#333333"/>
+									</g>
+									<defs>
+										<clipPath id="clip0_2_78">
+											<rect width="15" height="15" fill="white" transform="translate(0.666748)"/>
+										</clipPath>
+									</defs>
+								</svg>
+								<a class="header-top__dots" href="#">
+									<div class="header-top__dot"></div>
+									<div class="header-top__dot"></div>
+									<div class="header-top__dot"></div>
+									<div class="header-top__dot"></div>
+									<div class="header-top__dot"></div>
+									<div class="header-top__dot"></div>
+									<div class="header-top__dot"></div>
+									<div class="header-top__dot"></div>
+								</a>
+							</form>
+							<div class="popup">
+								<div class="popup__container">
+									<div class="popup__body">
+										<div class="popup__close">&#10006</div>
+										<ul class="popup-top__list">
+											<li class="popup-list__item"><a class="popup-list-link" href="#">Как это работает?</a></li>
+											<li class="popup-list__item"><a class="popup-list-link" href="#">FAQ</a></li>
+											<li class="popup-list__item"><a class="popup-list-link button popup-list-link-btn" href="#">Войти</a></li>
+											<form class="header__switchers-form" action="#">
+												<div class="header__switchers-wrapper">
+													<select class="header__switchers-sel" name="Languages">
+														<option value="RU" selected>RU</option>
+														<option value="ENG">ENG</option>
+													</select>
+												</div>
+											</form>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="counter">
+				<div class="container">
+					<div class="block__title">
+						<p class="title__uptext">ВОЗМОЖНЫЕ СУММЫ ОБМЕНА</p>
+						<h2 class="title">Выберите сумму для обмена</h2>
+					</div>
+					<form class="counter-form" action="#">
+						<div class="counter-item">
+							<p class="counter-title">
+								У меня есть:
+							</p>
+							<div id="drop" class="drop-values"></div>
+						</div>
+						<div class="counter-result">
+							<button><img src="images/icons/convert.svg" alt="Кнопка"></button>
+						</div>
+						<div class="counter-item">
+							<p class="counter-title">
+								Хочу получить:
+							</p>
+							<div id="drop" class="drop-country"></div>
+						</div>
+					</form>
+					<div class="counter__columns">
+						<div class="counter-column">
+							<div class="counter-column__wrapper">
+								<div class="counter-column__title">
+									<p class="counter-column__money">10000$</p>
+									<p class="counter-column__popular">Популярный!</p>
+								</div>
+								<div class="counter-column__receive">
+									<p class="counter__receive-text">
+										Вы получите:
+									</p>
+									<p class="counter__receive-value">
+										0.26 Bitcoin
+									</p>
+								</div>
+								<div class="counter-column__countdown">
+									<p class="counter__countdown-text">
+										Обновление курса через:
+									</p>
+									<p class="counter__countdown-time">
+										55 секунд
+									</p>
+									<div class="counter__countdown-line">
+										<div class="counter__countdown-update"></div>
+									</div>
+								</div>
+								<div class="counter-column-btn">
+									<button class="button">Обменять</button>
+								</div>
+							</div>
+						</div>
+						<div class="counter-column popularity">
+							<div class="counter-column__wrapper">
+								<div class="counter-column__title">
+									<p class="counter-column__money">25000$</p>
+									<p class="counter-column__popular">Популярный!</p>
+								</div>
+								<div class="counter-column__receive">
+									<p class="counter__receive-text">
+										Вы получите:
+									</p>
+									<p class="counter__receive-value">
+										0.64 Bitcoin
+									</p>
+								</div>
+								<div class="counter-column__countdown">
+									<p class="counter__countdown-text">
+										Обновление курса через:
+									</p>
+									<p class="counter__countdown-time">
+										1 минута
+									</p>
+									<div class="counter__countdown-line">
+										<div class="counter__countdown-update"></div>
+									</div>
+								</div>
+								<div class="counter-column-btn">
+									<button class="button">Обменять</button>
+								</div>
+							</div>
+						</div>
+						<div class="counter-column">
+							<div class="counter-column__wrapper">
+								<div class="counter-column__title">
+									<p class="counter-column__money">38000$</p>
+									<p class="counter-column__popular">Популярный!</p>
+								</div>
+								<div class="counter-column__receive">
+									<p class="counter__receive-text">
+										Вы получите:
+									</p>
+									<p class="counter__receive-value">
+										1 Bitcoin
+									</p>
+								</div>
+								<div class="counter-column__countdown">
+									<p class="counter__countdown-text">
+										Обновление курса через:
+									</p>
+									<p class="counter__countdown-time">
+										30 секунд
+									</p>
+									<div class="counter__countdown-line">
+										<div class="counter__countdown-update"></div>
+									</div>
+								</div>
+								<div class="counter-column-btn">
+									<button class="button">Обменять</button>
+								</div>
+							</div>
+						</div>
+						<div class="counter-column">
+							<div class="counter-column__wrapper">
+								<div class="counter-column__title">
+									<p class="counter-column__money">Ваша сумма:</p>
+									<p class="counter-column__popular">Популярный!</p>
+								</div>
+								<div class="counter-inputs">
+									<div class="counter-column__your counter-column__yourmoney">
+										<input class="counter__your counter-yourmoney" type="number" placeholder="USD">
+									</div>
+									<div class="counter-column__your counter-column__total">
+										<input class="counter__your counter-total" type="number" placeholder="Bitcoin">
+									</div>
+								</div>
+								<div class="counter-column-btn">
+									<button class="button">Обменять</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+					
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__item">
+						<a class="footer__logo" href="#">
+							<img src="images/logo.png" alt="Логотип Codex">
+						</a>
+					</div>
+					<div class="footer__item">
+						<h6 class="footer__item-title">КРИПТОВАЛЮТНЫЕ ПАРЫ</h6>
+						<ul class="footer__item-list">
+							<li><a class="footer__item-link" href="transfer.html">Продать биткоин за гривну</a></li>
+							<li><a class="footer__item-link" href="transfer.html">Купить биткоин за гривну</a></li>
+							<li><a class="footer__item-link" href="transfer.html">Продать эфириум за доллар</a></li>
+							<li><a class="footer__item-link" href="transfer.html">Купить эфириум за доллар</a></li>
+							<li><a class="footer__item-link" href="transfer.html">Купить биткойн за рубль</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<h6 class="footer__item-title">КУРСЫ</h6>
+						<ul class="footer__item-list">
+							<li><a class="footer__item-link" href="#">BTC</a></li>
+							<li><a class="footer__item-link" href="#">ETH</a></li>
+							<li><a class="footer__item-link" href="#">USDT</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<h6 class="footer__item-title">КОМПАНИЯ</h6>
+						<ul class="footer__item-list">
+							<li><a class="footer__item-link" href="#">О нас</a></li>
+							<li><a class="footer__item-link" href="#">Комисии и лимиты</a></li>
+							<li><a class="footer__item-link" href="#">Контакты</a></li>
+							<li><a class="footer__item-link" href="#">Политика конфиденциальности</a></li>
+						</ul>
+					</div>
+				</div>
+				<p class="footer__copy">
+					Copyright©, 2022 by Revan Darth
+				</p>
+			</div>
+		</footer>
+
+		<script src="js/libs.min.js"></script>
+	   <script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js" ></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
