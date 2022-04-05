@@ -1,4 +1,4 @@
-var money = [
+let money = [
     {
         text: "Bitcoin",
         value: 1,
@@ -24,7 +24,7 @@ var money = [
         imageSrc: "../images/icons/Etherium.svg"
     },
 ];
-var country = [
+let country = [
     {
         text: "USD",
         value: 1,
