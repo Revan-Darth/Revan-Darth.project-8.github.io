@@ -3,25 +3,25 @@ let money = [
         text: "Bitcoin",
         value: 1,
         selected: true,
-        imageSrc: '../images/icons/bitcoin.svg',
+        imageSrc: "../images/icons/bitcoin.svg"
     },
     {
         text: "Litecoin",
         value: 2,
         selected: false,
-        imageSrc: "../images/icons/Litecoin.svg",
+        imageSrc: "../images/icons/Litecoin.svg"
     },
      {
         text: "Dogiecoin",
         value: 3,
         selected: false,
-        imageSrc: "../images/icons/Dogie.svg",
+        imageSrc: "../images/icons/Dogie.svg"
     },
      {
         text: "Ethereum",
         value: 4,
         selected: false,
-        imageSrc: "../images/icons/Etherium.svg",
+        imageSrc: "../images/icons/Etherium.svg"
     },
 ];
 let country = [
